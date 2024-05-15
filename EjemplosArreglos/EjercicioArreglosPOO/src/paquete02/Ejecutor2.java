@@ -19,6 +19,12 @@ public class Ejecutor2 {
                 notas);
         estudiante.establecerPromedio();
         estudiante.establecerPromedioCualitativo();
+        /*
+        si se comentan las lineas 20 y 21, o si no existieran, no se llamarian
+        a los metodos correspondientes y por lo tanto los atributos promedio y
+        promedio cualitativo no tendran ningun valor, y se imprimira el valor 
+        que tienen por defecto
+        */
         
         System.out.printf("%s\n", estudiante);
     }
