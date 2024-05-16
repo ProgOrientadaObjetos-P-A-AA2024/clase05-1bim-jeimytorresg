@@ -24,10 +24,11 @@ public class EjemploCuatro {
         
         for (int i = 0; i < calificaciones.length; i++) {
             Calificacion objetoCalificacion = calificaciones[i];
-            System.out.printf("%s - %.2f - Profesor(%s)\n", 
+            System.out.printf("%s - %.2f - Profesor(%s - %s)\n", 
                     objetoCalificacion.obtenerNombreMateria(),
                     objetoCalificacion.obtenerNota(), 
-                    objetoCalificacion.obtenerProfesor().obtenerNombre());
+                    objetoCalificacion.obtenerProfesor().obtenerNombre(),
+                    objetoCalificacion.obtenerProfesor().obtenerTipo());
         }
         /*
         en la linea 30 se esta haciendo como un camino hacia el metodo 
