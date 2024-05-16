@@ -12,7 +12,12 @@ public class EjemploTres {
         // crear un arreglo de objetos de tipo Calificacion
         Calificacion [] calificaciones = {new Calificacion(10, "Computación"), 
             new Calificacion(9, "Electrónica")};
-        
+        /*
+        Dentro del arreglo de tipo calificacion, se estan asignando directamente
+        valores dentro del arreglo. estos objetos son anonimos y solo pueden
+        ser llamados por el nombre del arreglo y la posicion en donde se 
+        encuentre el objeto
+        */
         for (int i = 0; i < calificaciones.length; i++) {
             Calificacion objetoCalificacion = calificaciones[i];
             System.out.printf("%s - %.2f\n", 
